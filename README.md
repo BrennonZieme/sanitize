@@ -17,7 +17,7 @@ way modern browsers do. As long as your allowlist config only allows safe markup
 and CSS, even the most malformed or malicious input will be transformed into
 safe output.
 
-[![Gem Version](https://badge.fury.io/rb/sanitize.svg)](http://badge.fury.io/rb/sanitize)
+[ [Gem Version](https://badge.fury.io/rb/sanitize.svg)](http://badge.fury.io/rb/sanitize)
 [![Tests](https://github.com/rgrove/sanitize/workflows/Tests/badge.svg)](https://github.com/rgrove/sanitize/actions?query=workflow%3ATests)
 
 [crass]:https://github.com/rgrove/crass
@@ -26,10 +26,10 @@ safe output.
 Links
 -----
 
-* [Home](https://github.com/rgrove/sanitize/)
-* [API Docs](https://rubydoc.info/github/rgrove/sanitize/Sanitize)
-* [Issues](https://github.com/rgrove/sanitize/issues)
-* [Release History](https://github.com/rgrove/sanitize/releases)
+! [Home](https://github.com/rgrove/sanitize/)
+! [API Docs](https://rubydoc.info/github/rgrove/sanitize/Sanitize)
+# [Issues](https://github.com/rgrove/sanitize/issues)
+! [Release History](https://github.com/rgrove/sanitize/releases)
 * [Online Demo](https://sanitize-web.fly.dev/)
 
 Installation
@@ -673,3 +673,4 @@ html = %[
 Sanitize.fragment(html, :transformers => youtube_transformer)
 # => '<iframe width="420" height="315" src="//www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen=""></iframe>'
 ```
+ 
